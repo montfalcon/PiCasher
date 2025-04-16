@@ -1,4 +1,4 @@
-# PiCash
+# PiCasher
 
 A lightweight docker image running many "passive" income applications, built for a Raspberry Pi.
 
@@ -7,7 +7,6 @@ Currenlty installed programs are:
 - [x] EarnApp 
 - [x] Pawns.app (IPRoyal Pawns)
 - [x] PacketStream
-- [x] Peer2Profit
 - [x] Traffmonetizer (x86_64 broke)
 - [x] BitPing
 
@@ -17,12 +16,11 @@ Raspberry Pi's running 64 bit OS's are supported (4, Zero2 W, 3b+) aarch64
 
 
 You will need an account at each of these sites
-- [Register Earnapp](https://earnapp.com/i/p9c6p7r)
-- [Register Honeygain](https://r.honeygain.me/MATTH77B97)
-- [Register Peer2profit](https://p2pr.me/16630967886320d7d435020)
-- [Register Pawns.app(Formerly IPRoyal Pawns)](https://pawns.app?r=538917)
-- [Register Packetstream](https://packetstream.io/?psr=3dq9)
-- [Register Traffmonetizer](https://traffmonetizer.com/?aff=522583)
+- [Register Earnapp](https://earnapp.com/i/rBezkcsv)
+- [Register Honeygain](https://r.honeygain.me/RAVAT518F5)
+- [Register Pawns.app(Formerly IPRoyal Pawns)](https://pawns.app/?r=13391648)
+- [Register Packetstream](https://packetstream.io/?psr=75qO)
+- [Register Traffmonetizer](https://traffmonetizer.com/?aff=1880125)
 - [Register BitPing](https://app.bitping.com?r=3TGus9GO) *Crypto payout
 
 
@@ -37,7 +35,7 @@ You will need an account at each of these sites
 <br>
 
 # Quick start
-Docker is required (maybe when fedora 37 lands we can look at using podman)
+Docker is required 
 ### Docker installs
 > Ubuntu: https://docs.docker.com/engine/install/ubuntu/<br>
 > Debian: https://docs.docker.com/engine/install/debian/<br>
@@ -118,15 +116,6 @@ USE_PACKET_STREAM=y
 PS_ID=abc123
 ```
 <br><br><br>
-
-# Peer2Profit
-Register for an account. In the settings file set `USE_PEER2PROFIT` to `y` and `P2_EMAIL` to your email.
-<br><br>Example
-```
-# Peer2Profit
-USE_PEER2PROFIT=y
-P2_EMAIL=example@example.com
-```
 
 <br><br><br>
 
