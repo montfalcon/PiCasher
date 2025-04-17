@@ -72,6 +72,7 @@ containrrr/watchtower
 ### TO-DO:
 - [x] make a multi arch build
 - [ ] make a one-liner build and install for supported OS's
+- [ ] add support for Presearch
 
 
 ---
