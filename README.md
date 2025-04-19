@@ -1,6 +1,6 @@
 # PiCasher
 
-A lightweight docker image running many "passive" income applications, built for a Raspberry Pi.
+A lightweight Bash script for installing many "passive" income applications, built for a Raspberry Pi.
 
 Currenlty installed programs are:
 - [x] Honeygain
@@ -11,7 +11,7 @@ Currenlty installed programs are:
 - [x] BitPing
 
 
-Raspberry Pi's running 64 bit OS's are supported (4, Zero2 W, 3b+) aarch64
+Raspberry Pi's running 64 bit OS's are supported (Zero 2W, 3b+, 4, 5) aarch64
 ---
 
 
@@ -35,42 +35,21 @@ You will need an account at each of these sites
 <br>
 
 # Quick start
-Docker is required 
-### Docker installs
-> Ubuntu: https://docs.docker.com/engine/install/ubuntu/<br>
-> Debian: https://docs.docker.com/engine/install/debian/<br>
-> Raspbian: https://www.simplilearn.com/tutorials/docker-tutorial/raspberry-pi-docker
+You will need:
+- a 64 bit Raspberry Pi
+- a MicroSD car with Raspian Full or Lite for Zero 2W
+- a power supply
+- access to the command prompt through SSH or Bash
+- an internet connection
+- facoltative: a monitor, a keyboard and a mouse just for the setup and depending on your configuration 
 
 
-<br>
-
-git clone onto a arm64 platform
-
-```
-git clone https://github.com/chashtag/PiCash.git && cd PiCash
-```
-
-Edit the `settings.conf` file
-
-Build and run the container via `./run.sh`
-<br>
-<br>
-<br>
-
-To enable automatic updates you can use [watchtower](https://containrrr.dev/watchtower/)
-```
-docker run -d \
---name watchtower \
---restart always \
--v /var/run/docker.sock:/var/run/docker.sock \
-containrrr/watchtower
-```
 
 
 
 ---
 ### TO-DO:
-- [x] make a multi arch build
+
 - [ ] make a one-liner build and install for supported OS's
 - [ ] add support for Presearch
 
