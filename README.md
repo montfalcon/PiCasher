@@ -37,12 +37,12 @@ You will need an account at each of these sites
 # Quick start
 You will need:
 - a 64 bit Raspberry Pi
-- a MicroSD car with Raspian Full or Lite for Zero 2W
+- a MicroSD card with Raspian Lite for Zero 2W
 - a power supply
 - access to the command prompt through SSH or Bash
 - an internet connection
 
-Opyional:
+Optional:
 - a monitor, a keyboard and a mouse just for the setup and depending on your configuration 
 
 
@@ -56,6 +56,8 @@ Opyional:
 - [ ] translation in other languages
 - [ ] a specific version for other Raspberry Pi including more apps
 - [ ] Telegram script for remote monitoring
+- [ ] Possibility to set a daily auto reboot
+- [ ] Possibility to set a lower writing mode for being faster and preserve the Sd Card
 
 
 
