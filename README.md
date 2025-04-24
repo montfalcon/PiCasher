@@ -48,7 +48,7 @@ Before running PiCasher, ensure you have:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/montfalcon/picasher-installer.git
+git clone https://github.com/montfalcon/PiCasher.git
 cd picasher-installer
 
 # 2. Make the script executable
