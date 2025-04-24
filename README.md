@@ -49,7 +49,7 @@ Before running PiCasher, ensure you have:
 ```bash
 # 1. Clone the repository
 git clone https://github.com/montfalcon/PiCasher.git
-cd picasher-installer
+cd PiCasher
 
 # 2. Make the script executable
 chmod +x picasher_installer.sh
