@@ -1,6 +1,9 @@
-# PiCasher
+![picasher](https://github.com/user-attachments/assets/9db65ba0-180c-4197-9b42-d1c427f3ada2)
 
-**PiCasher** is a lightweight Bash installer/uninstaller for deploying popular passive‑income applications on Raspberry Pi devices via Docker containers.
+
+
+**PiCasher** is a lightweight Bash installer/uninstaller for deploying popular passive‑income applications on Raspberry Pi Zero 2W.
+It implements all the necessary optimization for maximizing RAM usage and limit as possible any MicroSD disk writing.
 
 ---
 
@@ -14,12 +17,15 @@ This script can install or remove the following services:
 - **PacketStream**
 - **Traffmonetizer**
 - **BitPing**
+- **Earnfm**
+- **Repocket**
+- **Myst**
 
 > ⚙️ Most of them run in Docker; no manual dependency management required.
 
 ## Compatibility
 
-Especially designed for: 
+The best energy performance are on: 
 
 - Raspberry Pi Zero 2 W
 
